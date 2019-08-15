@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
+// Check is a function.
 func Check(e error) {
 	if e != nil {
 		panic(e)
