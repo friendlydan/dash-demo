@@ -1,4 +1,2 @@
 tenets:
-- import: codelingo/effective-go/defer-close-file
-- import: codelingo/effective-go/comment-first-word-when-empty
-- import: codelingo/effective-go
+- import: codelingo/effective-go/unnecessary-else
