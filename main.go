@@ -62,7 +62,6 @@ func main() {
 
 	if n3 == 3 {
 		return
-	} else {
-		fmt.Println("n3 is not 3")
 	}
+	fmt.Println("n3 is not 3")
 }
