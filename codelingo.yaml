@@ -1,2 +1,2 @@
 tenets:
-- import: codelingo/lomik-go-carbon/missing-stop-ticker
+- import: codelingo/effective-go/unnecessary-else

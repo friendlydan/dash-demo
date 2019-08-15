@@ -60,4 +60,9 @@ func main() {
 	Check(err)
 	fmt.Printf("%d bytes: %s\n", n3, string(b3))
 
+	if n3 == 3 {
+		return
+	} else {
+		fmt.Println("n3 is not 3")
+	}
 }
