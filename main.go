@@ -17,6 +17,7 @@ func test1() *os.File {
 	return f
 }
 
+// test2
 func test2() {
 	f, err := os.Open("/tmp/test.txt") //ISSUE
 	Check(err)
