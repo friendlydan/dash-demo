@@ -28,13 +28,14 @@ func test2() {
 }
 
 func test3() (f *os.File) {
+	// test
 	f, err := os.Open("/tmp/test.txt")
 	Check(err)
 	return
 }
 
 func main() {
-
+	//test
 	f1, err := os.Open("/tmp/test.txt") //ISSUE
 	Check(err)
 	//defer f1.Close()
