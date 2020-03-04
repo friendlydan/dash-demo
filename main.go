@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 )
-
+//
 // Check is a function.
 func Check(e error) {
 	if e != nil {
