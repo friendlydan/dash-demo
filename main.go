@@ -30,6 +30,7 @@ func test2() {
 	fmt.Printf("%d bytes: %s\n", n, string(b))
 }
 
+// test3
 func test3() (f *os.File) {
 	// test
 	f, err := os.Open("/tmp/test.txt")
