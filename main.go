@@ -64,4 +64,7 @@ func main() {
 		return
 	}
 	fmt.Println("n3 is not 3")
+	
+	t := []string{}
+	fmt.Println(t)
 }
