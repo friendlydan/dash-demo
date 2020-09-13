@@ -11,6 +11,8 @@ func Check(e error) {
 		panic(e)
 	}
 }
+
+// comment
 func test1() *os.File {
 	f, err := os.Open("/tmp/test.txt")
 	Check(err)
